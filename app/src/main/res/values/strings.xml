@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Live Wallpapers 4K</string>
+
+
+    <string name="ForKWall_no_internet_connection">Please check your Internet connection and try again</string>
+    <string name="intertial_MaxAds" translatable="false">f6555a2f3613385e</string>
+    <string name="ForKWall_try_again">RETRY</string>
+    <string name="rewarded_MaxAds" translatable="false">7b1be1277d89def1</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748315123092",
+    "project_id": "live-wallpapers-4k-12602",
+    "storage_bucket": "live-wallpapers-4k-12602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748315123092:android:ec05f210d7449b38298381",
+        "android_client_info": {
+          "package_name": "com.livewallk.livewallpapersfork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748315123092-7stq0gfqk2jjo6t2attpmriqbgi1e5pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA4tAeYmqcCYMmsMA6B5wdWyKlHPx6Gac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748315123092-7stq0gfqk2jjo6t2attpmriqbgi1e5pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
