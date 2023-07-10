@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "748315123092",
-    "project_id": "live-wallpapers-4k-12602",
-    "storage_bucket": "live-wallpapers-4k-12602.appspot.com"
+    "project_number": "70993987541",
+    "project_id": "live-wallpapers-4k-18d37",
+    "storage_bucket": "live-wallpapers-4k-18d37.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:748315123092:android:ec05f210d7449b38298381",
+        "mobilesdk_app_id": "1:70993987541:android:5d35a216f0532095f8df5c",
         "android_client_info": {
           "package_name": "com.livewallk.livewallpapersfork"
         }
       },
       "oauth_client": [
         {
-          "client_id": "748315123092-7stq0gfqk2jjo6t2attpmriqbgi1e5pd.apps.googleusercontent.com",
+          "client_id": "70993987541-oh9aieolgv6tm4or1vc82gqa5dsmaaur.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDA4tAeYmqcCYMmsMA6B5wdWyKlHPx6Gac"
+          "current_key": "AIzaSyDx-eks7T5Jma5jabI2sBA6e6IKavKXEOc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "748315123092-7stq0gfqk2jjo6t2attpmriqbgi1e5pd.apps.googleusercontent.com",
+              "client_id": "70993987541-oh9aieolgv6tm4or1vc82gqa5dsmaaur.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
