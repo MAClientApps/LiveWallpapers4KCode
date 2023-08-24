@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0"
+    android:orientation="vertical">
+
+    <!--linear layout for displaying search bar-->
+    <LinearLayout
+        android:id="@+id/idLLay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_back_fork"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <!--edit text for displaying edittext-->
+        <EditText
+            android:id="@+id/idForKEdtSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:hint="Search Wallpapers"
+            android:textColorHint="@color/black"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTint="@android:color/transparent" />
+
+        <!--image view for displaying search icon-->
+        <ImageView
+            android:id="@+id/idForkIVSearch"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:visibility="visible"
+            android:padding="4dp"
+            android:src="@drawable/ic_search_fork" />
+
+    </LinearLayout>
+
+    <!--recycler view for displaying categories-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idForkRVCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idLLay1"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/livewall_category_rv_item" />
+
+    <!--progress bar for loading indicator-->
+    <ProgressBar
+        android:id="@+id/idForKPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!--recycler view for displaying wallpapers-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idForKRVWallpapers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idForkRVCategories"
+        android:layout_marginTop="5dp" />
+
+
+    <com.applovin.mediation.ads.MaxAdView
+        android:id="@+id/fork_MaxAds"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        maxads:adUnitId="9e83cbffd65c80f4" />
+
+</RelativeLayout>

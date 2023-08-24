@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">70993987541-oh9aieolgv6tm4or1vc82gqa5dsmaaur.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">70993987541</string>
+    <string name="google_api_key" translatable="false">AIzaSyDx-eks7T5Jma5jabI2sBA6e6IKavKXEOc</string>
+    <string name="google_app_id" translatable="false">1:70993987541:android:5d35a216f0532095f8df5c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDx-eks7T5Jma5jabI2sBA6e6IKavKXEOc</string>
+    <string name="google_storage_bucket" translatable="false">live-wallpapers-4k-18d37.appspot.com</string>
+    <string name="project_id" translatable="false">live-wallpapers-4k-18d37</string>
+</resources>
