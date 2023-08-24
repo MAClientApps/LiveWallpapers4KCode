@@ -1,4 +1,4 @@
-#Thu Aug 24 08:21:22 UTC 2023
+#Thu Aug 24 08:56:32 UTC 2023
 base.1=/home/ec2-user/LiveWallpapers4KCode/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
 path.1=classes2.dex
 base.0=/home/ec2-user/LiveWallpapers4KCode/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
